@@ -8,6 +8,17 @@ This is a simple external component for 1C:Enterprise 7.7 that demonstrates how 
 2. Build the project in Release mode
 3. The output will be `HelloWorldComponent.dll`
 
+## Release Process
+
+The component is automatically built and released when you push a tag starting with 'v' (e.g., v1.0.0) to GitHub. The release will include the compiled DLL.
+
+To create a new release:
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
 ## Registering the Component
 
 To register the component, run the following command as Administrator:
