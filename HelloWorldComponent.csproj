@@ -5,6 +5,8 @@
     <OutputType>Library</OutputType>
     <AssemblyName>HelloWorldComponent</AssemblyName>
     <RootNamespace>HelloWorldComponent</RootNamespace>
+    <EnableComInterop>true</EnableComInterop>
+    <RegisterForComInterop>true</RegisterForComInterop>
   </PropertyGroup>
 
 </Project> 
